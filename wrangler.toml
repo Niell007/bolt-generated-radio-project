@@ -1,0 +1,17 @@
+name = "cloudflare-web-app"
+    compatibility_date = "2023-11-21"
+
+    [ai]
+    binding = "AI"
+
+    [[kv_namespaces]]
+    binding = "FILE_STORAGE"
+    id = "d95e0d08a6604171b3558c6d6f8d59e5"
+
+    [[kv_namespaces]]
+    binding = "METADATA_STORAGE"
+    id = "1b2bd01a5a1d490396a8dd3ec07c5a38"
+
+    [[kv_namespaces]]
+    binding = "USER_DATA"
+    id = "2b511d51a22341cab6b6101a3e868f12"

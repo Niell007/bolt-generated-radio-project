@@ -1,0 +1,9 @@
+@tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    body {
+      background-color: theme('colors.dark-bg');
+      color: theme('colors.light-text');
+      font-family: theme('fontFamily.custom');
+    }
